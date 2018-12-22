@@ -1,0 +1,9 @@
+CREATE TABLE `even`.`acara` ( `id_acara` INT(20) NOT NULL AUTO_INCREMENT , `nama_acara` VARCHAR(20) NOT NULL , `gambar` VARCHAR(100) NOT NULL , `id_kat` INT(20) NOT NULL , `deskripsi` TEXT NOT NULL , `price` VARCHAR(20) NOT NULL , `tempat` VARCHAR(50) NOT NULL , `tanggal` DATE NOT NULL , PRIMARY KEY (`id_acara`)) ENGINE = InnoDB;
+
+CREATE TABLE `even`.`kategori` ( `id_kat` INT(20) NOT NULL AUTO_INCREMENT , `nm_kat` VARCHAR(20) NOT NULL , `keterangan` TEXT NOT NULL , PRIMARY KEY (`id_kat`)) ENGINE = InnoDB;
+
+CREATE TABLE `even`.`saran` ( `id_saran` INT(20) NOT NULL AUTO_INCREMENT , `id_user` INT(20) NOT NULL , `username` VARCHAR(20) NOT NULL , `email` VARCHAR(20) NOT NULL , `saran` TEXT NOT NULL , PRIMARY KEY (`id_saran`)) ENGINE = InnoDB;
+
+CREATE TABLE `even`.`tiket` ( `id_tiket` INT(20) NOT NULL AUTO_INCREMENT , `nama_lengkap` INT(20) NOT NULL , `email` VARCHAR(20) NOT NULL , `kelamin` VARCHAR(20) NOT NULL , `tgl_daftar` TEXT NOT NULL , PRIMARY KEY (`id_tiket`)) ENGINE = InnoDB;
+
+CREATE TABLE `event`.`admin` ( `id_user` INT(20) NOT NULL AUTO_INCREMENT , `username` INT(20) NOT NULL , `password` VARCHAR(20) NOT NULL ,PRIMARY KEY (`id_user`)) ENGINE = InnoDB
