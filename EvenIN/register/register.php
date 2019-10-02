@@ -30,10 +30,9 @@
 	</nav>
 	<!-- penutup navigasi/menu -->
 
-
-	<!-- content isi -->
+	<!-- konten isi -->
 	<div class="container">
-			<h2>Buat Akun Anda</h2>
+		<h2>Buat Akun Anda</h2>
 
 		<!--Kembali ke data admin-->
 		<p>
@@ -71,7 +70,7 @@
 		</p>
 	</footer>
 	<!-- penutup bagian bawah -->
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
 </body>
 </html>
